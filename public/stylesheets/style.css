@@ -8,16 +8,10 @@ a {
   color: #00B7FF;
 
 }
-
-header {
-  background-color: gainsboro;
-  color: white;
-  padding: 10px;
-}
-
 nav ul {
   display: flex;
   list-style-type: none;
+  justify-content: center;
 
 }
 

@@ -3,10 +3,10 @@ module.exports = {
     "username": "root",
     "password": "root",
     "database": "movies_db",
-    "host": "localhost",
+    "host": "127.0.0.1",
     "dialect": "mysql",
     "operatorsAliases": false,
-    "port": "8889"
+    "port": "3306"
   },
   "test": {
     "username": "root",

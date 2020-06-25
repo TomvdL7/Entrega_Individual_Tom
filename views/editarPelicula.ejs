@@ -1,4 +1,5 @@
-<%- include('header') -%>
+<%- include('partials/header.ejs') %>
+
     <h1>Editar película</h1>
     <form action="/peliculas/editar/<%=película.id%>" method="POST">
         <div>
@@ -42,4 +43,4 @@
         </div>
         <button type="submit"> Editar</button>
     </form>
-<%- include('footer') -%>
+    <%- include('partials/footer.ejs') %>
